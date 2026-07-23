@@ -1,10 +1,4 @@
----
-title: INSTALLATION
-slug: installation
-lang: en
-project: Cryptoix-python
-domain: https://github.com/Cryptoix-Dev/cryptoix-python
----
+
 ## Prerequisites
 
 Before installing the `cryptoix-python` SDK, ensure your development environment satisfies the following requirements:
