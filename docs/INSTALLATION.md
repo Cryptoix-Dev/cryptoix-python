@@ -4,7 +4,6 @@ slug: installation
 lang: en
 project: Cryptoix-python
 domain: https://github.com/Cryptoix-Dev/cryptoix-python
-generated_by: agenter
 ---
 ## Prerequisites
 
@@ -101,7 +100,8 @@ pytest
 When integrating or developing with `cryptoix-python`, observe the following security guidelines:
 
 1. **API Key Management**: 
-   Never hardcode your API keys in source files or check them into version control. The SDK automatically detects the `CRYPTOIX_API_KEY` environment variable if explicit client arguments are omitted:
+   Never hardcode your API keys in source files or check them into version control ( _Get or Create an API Key, Go to the Dashboard in the [API Key Section.](https://cryptoix.io/dashboard/api-keys 'Cryptoix Dashboard | API KEYS')_ ).
+   The SDK automatically detects the `CRYPTOIX_API_KEY` environment variable if explicit client arguments are omitted:
    ```python
    import os
    from cryptoix import CryptoixClient
@@ -114,7 +114,7 @@ When integrating or developing with `cryptoix-python`, observe the following sec
    export CRYPTOIX_API_KEY="cx_live_XXXXXXXXXXXXXXXXXXXXXXXX"
    ```
 
-2. **Constant-Time Webhook Verification**: 
+3. **Constant-Time Webhook Verification**: 
    When handling incoming webhooks from Cryptoix, always use the built-in `verify_webhook_signature` helper from `src/cryptoix/webhooks.py`. This utility leverages `hmac.compare_digest` under the hood to perform constant-time string comparisons, protecting your application endpoints against timing side-channel attacks:
    ```python
    from cryptoix import verify_webhook_signature
