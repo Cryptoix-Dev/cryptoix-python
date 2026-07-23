@@ -4,7 +4,6 @@ slug: api
 lang: en
 project: Cryptoix-python
 domain: https://github.com/Cryptoix-Dev/cryptoix-python
-generated_by: agenter
 ---
 ## API Documentation
 
