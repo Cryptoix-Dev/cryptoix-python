@@ -1,11 +1,3 @@
----
-title: DEVELOPMENT
-slug: development
-lang: en
-project: Cryptoix-python
-domain: https://github.com/Cryptoix-Dev/cryptoix-python
-generated_by: agenter
----
 # Developer Documentation: `cryptoix-python`
 
 Welcome to the contributor and developer documentation for `cryptoix-python`, the official Python Software Development Kit (SDK) for integrating with the Cryptoix Merchant and Payment APIs. This document outlines the project structure, build system, test procedures, HTTP transport mocking strategies, and code quality standards required for maintaining and contributing to the SDK.
