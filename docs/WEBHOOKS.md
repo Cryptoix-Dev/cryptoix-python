@@ -15,7 +15,9 @@ Cryptoix signs webhook payloads using an **HMAC-SHA256** hash-based message auth
 1. When Cryptoix transmits a webhook, it computes an HMAC-SHA256 hash of the raw HTTP request body using your webhook secret as the private key.
 2. The resulting hex digest is sent in the request headers (typically via `X-Cryptoix-Signature`).
 3. Your application captures the raw, unparsed request body bytes and the signature header value, passing them alongside your webhook secret to `verify_webhook_signature`.
-
+   
+> [!NOTE]
+> You should [Refer to this Section](https://cryptoix.io/dashboard/webhooks 'Dashboard/Webhooks - Cryptoix') to Webhook Deliveries.
 ### Key SDK Functions
 
 - `compute_webhook_signature(payload: bytes | str, secret: str) -> str`: Computes the expected HMAC-SHA256 hex digest for a given payload and secret.
