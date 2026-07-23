@@ -1,13 +1,9 @@
----
-title: README
-slug: readme
-lang: en
-project: Cryptoix-python
-domain: https://github.com/Cryptoix-Dev/cryptoix-python
----
 # Overview
 
 `cryptoix-python` is the official Python Software Development Kit (SDK) for integrating with the Cryptoix Merchant and Payment APIs. Designed for modern Python applications, the SDK abstracts low-level HTTP interactions, signature verifications, pagination, custom error mapping, and automatic rate-limit retries. It allows developers to securely manage payment gateways, merchant transactions, payouts, refunds, escrows, invoices, webhooks, and QR code endpoints.
+
+> [!NOTE]
+> You should [Refer to this Section](https://cryptoix.io/dashboard/api-keys 'Dashboard/API KEYS - Cryptoix') to obtain or create the API key required for use.
 
 The codebase adheres to modern Python packaging standards (PEP 517/621 via Hatchling) and utilizes a standard `src/` layout with `httpx` for efficient synchronous HTTP execution.
 
