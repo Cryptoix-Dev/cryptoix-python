@@ -1,11 +1,3 @@
----
-title: USAGE
-slug: usage
-lang: en
-project: Cryptoix-python
-domain: https://github.com/Cryptoix-Dev/cryptoix-python
-generated_by: agenter
----
 # Developer Documentation & Usage Guide
 
 Welcome to the technical documentation for `cryptoix-python`, the official Python SDK for interacting with the Cryptoix Merchant and Payment APIs. This guide covers installation, client lifecycle management, core merchant workflows, pagination, and security best practices.
@@ -228,3 +220,5 @@ with CryptoixClient() as client:
     except CryptoixAPIError as e:
         print(f"General API error [{e.code}]: {e.details}")
 ```
+> [!NOTE]
+> You should [Refer to this Section](https://cryptoix.io/dashboard/api-keys 'Dashboard/API KEYS - Cryptoix') to obtain or create the API key required for use.
