@@ -1,11 +1,3 @@
----
-title: CONFIGURATION
-slug: configuration
-lang: en
-project: Cryptoix-python
-domain: https://github.com/Cryptoix-Dev/cryptoix-python
-generated_by: agenter
----
 ## Configuration & Environment
 
 This document outlines configuration options, environment variables, endpoint overrides, and automated resilience mechanisms for the `cryptoix-python` SDK.
