@@ -1,11 +1,3 @@
----
-title: WEBHOOKS
-slug: webhooks
-lang: en
-project: Cryptoix-python
-domain: https://github.com/Cryptoix-Dev/cryptoix-python
-generated_by: agenter
----
 ## Webhook Overview
 
 Webhooks allow the Cryptoix platform to send real-time HTTP notifications to your backend server when events occur (such as successful payments, processed payouts, or invoice status updates). 
